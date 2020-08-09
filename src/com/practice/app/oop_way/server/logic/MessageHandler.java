@@ -9,7 +9,7 @@ public interface MessageHandler {
      * @param message message object to be sent.
      * @return true if message is sent, false otherwise.
      */
-    boolean sendMessage(Message message);
+    boolean sendMessage(Message message); /* Abstraction! No complexities! Only input and output.*/
 
     /**
      * Receive message.
@@ -17,6 +17,6 @@ public interface MessageHandler {
      * @param message message object to be received
      * @return true if the message is received, false otherwise.
      */
-    boolean receiveMessage(Message message);
+    boolean receiveMessage(Message message); /* Abstraction! No complexities! Only input and output.*/
 
 }
